@@ -6,16 +6,17 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
-public class Forms extends BasePage{
-    public  Forms(WebDriver driver){
+public class FormsPage extends BasePage{
+    public FormsPage(WebDriver driver){
         setDriver(driver);
         PageFactory.initElements(new AjaxElementLocatorFactory(driver,10), this);
     }
     @FindBy(xpath = "//span[text()='Practice Form']")
     WebElement btnPracticeForm;
 
-    public AutomationPracticeForm clickBtnPracticeForm() {
+    public AutomationPracticeFormPage clickBtnPracticeForm() {
+        hideFooter();
         btnPracticeForm.click();
-        return new AutomationPracticeForm(driver);
+        return new AutomationPracticeFormPage(driver);
     }
 }
