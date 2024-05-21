@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe90ac3-729a-44a3-a7c4-28b066371cc2" name="Changes" comment="added js, enum, student form">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/StudentLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Hobbies.java" afterDir="false" />
+    <list default="true" id="fbe90ac3-729a-44a3-a7c4-28b066371cc2" name="Changes" comment="added StudentLombok">
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/StateCity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/StudentLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/StudentLombok.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutomationPracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutomationPracticeFormPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/AutomationPracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AutomationPracticeFormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
     "last_opened_file_path": "C:/Automation_testing/QA25/QA_25_DemoQA_Maven"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AutomationPracticeFormTests.automationPracticeFormPositiveTest">
+  <component name="RunManager" selected="TestNG.AutomationPracticeFormTests.automationPracticeFormPositiveTest_equalsStudent">
     <configuration name="ExceptionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.ExceptionClass" />
       <module name="QA_25_DemoQA_Maven" />
@@ -73,6 +71,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.AutomationPracticeFormTests" />
       <option name="METHOD_NAME" value="automationPracticeFormPositiveTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomationPracticeFormTests.automationPracticeFormPositiveTest_equalsStudent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_25_DemoQA_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AutomationPracticeFormTests" />
+      <option name="METHOD_NAME" value="automationPracticeFormPositiveTest_equalsStudent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AutomationPracticeFormTests.automationPracticeFormPositiveTest_equalsStudent" />
         <item itemvalue="TestNG.AutomationPracticeFormTests.automationPracticeFormPositiveTest" />
         <item itemvalue="TestNG.HomeTests.test" />
         <item itemvalue="TestNG.HomeTests" />
@@ -161,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715539513333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added StudentLombok">
+      <created>1716144845900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716144845900</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +204,7 @@
     <MESSAGE value="created project" />
     <MESSAGE value="added exctentions, dto, pages" />
     <MESSAGE value="added js, enum, student form" />
-    <option name="LAST_COMMIT_MESSAGE" value="added js, enum, student form" />
+    <MESSAGE value="added StudentLombok" />
+    <option name="LAST_COMMIT_MESSAGE" value="added StudentLombok" />
   </component>
 </project>
